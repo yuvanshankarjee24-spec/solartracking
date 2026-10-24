@@ -244,7 +244,6 @@ export function App() {
         {/* LIVE CHARTS (Rolling 60s / 5min window) */}
         <LiveCharts
           samples={historySamples}
-          threshold={threshold}
         />
 
         {/* BOTTOM ROW: Interactive Control Panel + Serial Terminal Log */}
