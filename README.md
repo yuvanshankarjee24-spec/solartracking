@@ -68,7 +68,7 @@ When presenting this project to an audience, panel, or class on a projector:
 | :--- | :--- | :--- |
 | `pause` | Freezes servo at current position, stops tracking loop | `OK: tracking paused` |
 | `resume` | Resumes active dual-LDR sun tracking | `OK: tracking resumed` |
-| `home` | Moves servo to home position (135°) and pauses tracking | `OK: going home (135°), tracking paused` |
+| `home` | Moves servo to home position (40°) and pauses tracking | `OK: going home (40°), tracking paused` |
 | `angle <30-150>` | Manually slews servo to a specific degree | `OK: moving to 110, tracking paused` |
 | `threshold <0-1023>` | Updates optical deadband threshold | `OK: threshold = 15` |
 | `print <ms>` | Sets serial telemetry output rate in milliseconds | `OK: printing every 1000 ms` |
