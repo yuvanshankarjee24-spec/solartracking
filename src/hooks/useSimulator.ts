@@ -154,10 +154,10 @@ export function useSimulator({ onLine }: SimulatorOptions) {
       state.tracking = true;
       onLine('OK: tracking resumed');
     } else if (lower === 'home') {
-      state.target = 90;
+      state.target = 135;
       state.tracking = false;
       setTracking(false);
-      onLine('OK: going home, tracking paused');
+      onLine('OK: going home (135°), tracking paused');
     } else if (lower.startsWith('angle')) {
       const match = cmd.match(/^angle\s+(\d+)/i);
       if (match) {

@@ -171,7 +171,7 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
                 className="w-full py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2 bg-white hover:bg-slate-100 text-slate-800 border border-slate-300 shadow-xs transition-all cursor-pointer"
               >
                 <Home className="w-4 h-4 text-slate-600" />
-                <span>Go Home (Center 90°)</span>
+                <span>Go Home (135°)</span>
               </button>
             </div>
           </div>
